@@ -11,37 +11,37 @@ var Ponies = {
 		"alt": "Do princesses still get to read books?",
 		"image": "img/twilightsparkle.png?1",
 		"source": "http://fav.me/d5sqhqv",
-		"category": "Mane 6"
+		"category": "Mane Six"
 	},
 	"Fluttershy": {
 		"alt": "*eep*",
 		"image": "img/fluttershy.png?1",
 		"source": "http://fav.me/d5ski2g",
-		"category": "Mane 6"
+		"category": "Mane Six"
 	},
 	"Rainbow Dash": {
 		"alt": "Hey, you look like you know how to fly. Think you can beat me in a race?",
 		"image": "img/rainbowdash.png?1",
 		"source": "http://fav.me/d5vuubx",
-		"category": "Mane 6"
+		"category": "Mane Six"
 	},
 	"Pinkie Pie": {
 		"alt": "I don't think anyone's noticed that I can see them right now! Silly humans!",
 		"image": "img/pinkie.png?1",
 		"source": "http://fav.me/d5ld7s7",
-		"category": "Mane 6"
+		"category": "Mane Six"
 	},
 	"Rarity": {
 		"alt": "Oh my celestia! What ever happened to your hair, deary?!",
 		"image": "img/rarity.png?1",
 		"source": "http://fav.me/d5lcja2",
-		"category": "Mane 6"
+		"category": "Mane Six"
 	},
 	"Applejack": {
 		"alt": "apples apples apples apples  apples apples apples      -pears-      apples apples apples apples apples",
 		"image": "img/applejack.png?1",
 		"source": "http://fav.me/d5u2rs9",
-		"category": "Mane 6"
+		"category": "Mane Six"
 	},
 
 	"Princess Celestia": {
@@ -56,9 +56,9 @@ var Ponies = {
 		"source": "http://fav.me/d4xefvq",
 		"category": "Royalty"
 	},
-	"Princess Cadence": {
+	"Princess Cadance": {
 		"alt": "what do i even put here",
-		"image": "img/cadence.png?1",
+		"image": "img/cadance.png?1",
 		"source": "http://fav.me/d5wkcz8",
 		"category": "Royalty"
 	},
@@ -73,25 +73,25 @@ var Ponies = {
 		"alt": "The night. Will last. TWELVE HOURS.",
 		"image": "img/nmm.png?1",
 		"source": "http://fav.me/d5uc5k9",
-		"category": "Major Villans"
+		"category": "Major Villains"
 	},
 	"Discord": {
 		"alt": "Why yes, I do enjoy seeing your hair on fire! It's actually quite amusing.",
 		"image": "img/discord.png?1",
 		"source": "http://fav.me/d5s54m5",
-		"category": "Major Villans"
+		"category": "Major Villains"
 	},
-	"Queen Crysalis": {
+	"Queen Chrysalis": {
 		"alt": "Do you think a lowely human like you can feed my hive alone?",
-		"image": "img/crysalis.png?1",
+		"image": "img/chrysalis.png?1",
 		"source": "http://fav.me/d4xbbc3",
-		"category": "Major Villans"
+		"category": "Major Villains"
 	},
 	"King Sombra": {
 		"alt": "CRYSTALLLSSSSSSS",
 		"image": "img/sombra.png?1",
 		"source": "http://fav.me/d5l0rzc",
-		"category": "Major Villans"
+		"category": "Major Villains"
 	},
 }
 

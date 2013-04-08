@@ -6,8 +6,15 @@ var sort, sortCallback, cache = [];
 var cacheKey = "";
 
 $(function() {
+	$('#categories button').each(function(idx, btn) {
+		$(btn).prop('disabled', (categories[$(btn).text()] === undefined));
+	});
+
 	$('#categories').on('submit', function(e) {
 		e.preventDefault();
+
+		if($('#categories button').filter('.active').length === 0)
+			return false;
 
 		// Make sure they know they'll loose their progress.
 		if(alreadyStarted && !confirm("Are you sure you wish to change your selected catergories?\n\nThis will reset your current progress."))
@@ -15,12 +22,10 @@ $(function() {
 
 		currentPonies = [];
 
-		if($('#mane6').hasClass('active'))
-			currentPonies = currentPonies.concat(categories["Mane 6"]);
-		if($('#royalty').hasClass('active'))
-			currentPonies = currentPonies.concat(categories["Royalty"]);
-		if($('#villans').hasClass('active'))
-			currentPonies = currentPonies.concat(categories["Major Villans"]);
+		$('#categories button').each(function(idx, btn) {
+			if($(btn).hasClass('active'))
+				currentPonies = currentPonies.concat(categories[$(btn).text()]);
+		});
 
 		$('#categories_wrapper').slideUp();
 		$('#war_zone').removeClass('preview');
