@@ -42,23 +42,27 @@ $(function() {
 				return callback(!cache[b + '!!' + a]);
 
 			var pony1 = Ponies[a];
-			$('#first').fadeOut(100, function() {
+			$('#first').fadeTo('fast', 0.0, function() {
 				$('#first button').text(a);
 				$('#first img').attr('src', pony1.image);
 				$('#first img').attr('title', pony1.alt);
 				$('#first a').attr('href', pony1.source);
 
-				$(this).fadeIn(100);
+				$('#first img').load(function() {
+					$('#first').fadeTo('fast', 1.0);
+				});
 			});
 
 			var pony2 = Ponies[b];
-			$('#second img').fadeOut(100, function() {
+			$('#second').fadeTo('fast', 0.0, function() {
 				$('#second button').text(b);
 				$('#second img').attr('src', pony2.image);
 				$('#second img').attr('title', pony2.alt);
 				$('#second a').attr('href', pony2.source);
 
-				$(this).fadeIn(100);
+				$('#second img').load(function() {
+					$('#second').fadeTo('fast', 1.0);
+				});
 			});
 
 			cacheKey = a + '!!' + b;
