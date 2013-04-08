@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Character Sorter - Who is best pony?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css?1" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Statistics</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <h3 class="muted">Who is best pony?</h3>
+      </div>
+      <hr>
+      <div id="categories_wrapper" class="row text-center">
+        <form id="categories">
+          <p>Choose the category of ponies you want included in the quiz below, then start choosing who the better pony is.</p>
+          <div class="pad-group">
+            <button id="mane6" type="button" class="btn active" data-toggle="button">Mane Six</button>
+            <button id="secondary" type="button" class="btn" disabled data-toggle="button">Secondary Ponies</button>
+            <button id="background" type="button" class="btn" disabled data-toggle="button">Background Ponies</button>
+          </div>
+          <div class="pad-group">
+            <button id="cmc" type="button" class="btn" disabled data-toggle="button">Cutie Mark Crusaders</button>
+            <button id="school" type="button" class="btn" disabled data-toggle="button">School Ponies</button>
+          </div>
+          <div class="pad-group">
+            <button id="royalty" type="button" class="btn" data-toggle="button">Royalty</button>
+            <button id="villans" type="button" class="btn" data-toggle="button">Major Villans</button>
+            <button id="villans2" type="button" class="btn" disabled data-toggle="button">Minor Villans</button>
+          </div>
+          <div class="pad-group pad-top">
+            <input type="submit" class="btn btn-primary" value="Begin!" />
+          </div>
+        </form>
+        <hr>
+      </div>
+      <div id="war_zone" class="row preview">
+        <div id="first" class="span5 pony-picker text-center">
+          <button class="btn">
+            Twilight Sparkle
+          </button>
+          <img class="character box-center" src="img/twilightsparkle.png" />
+          <a href="http://fav.me/d5sqhqv">(Image source)</a>
+        </div>
+        <div class="span2 text-center or-wrapper">
+          <h1>OR</h1>
+        </div>
+        <div id="second" class="span5 pony-picker text-center">
+          <button class="btn">
+            Fluttershy
+          </button>
+          <img class="character box-center" src="img/fluttershy.png" />
+          <a href="http://fav.me/d3nxapz">(Image source)</a>
+        </div>
+      </div>
+      <div id="results" class="text-center">
+        <p>Below is the list of your favourite ponies, ordered by how you scored them.</p>
+        <div class="row">
+          <div class="span4 offset4">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Character</th>
+                </tr>
+              </thead>
+              <tbody id="results_container">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="footer text-center">
+        <p>
+          Stuff, and things. &copy; people. Boobies.
+          <ul class="inline">
+            <li><a href="#">Stuff</a></li>
+            <li><a href="#">Things</a></li>
+            <li><a href="#">Things</a></li>
+            <li><a href="#">WHAT</a></li>
+          </ul>
+        </p>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/heapsort.min.js?1"></script>
+    <script src="js/ponies.js?1"></script>
+    <script src="js/main.js?1"></script>
+  </body>
+</html>

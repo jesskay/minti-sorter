@@ -1,0 +1,47 @@
+.character {
+	max-height: 276px;
+	display: block;
+	padding: 10px 0;
+}
+
+.or-wrapper h1 {
+	line-height: 350px;
+	font-size: 56px;
+}
+
+#war_zone {
+	-webkit-transition: 1s opacity;
+	-moz-transition: 1s opacity;
+	-o-transition: 1s opacity;
+}
+
+#results {
+	display: none;
+}
+
+.pony-picker {
+	cursor: pointer;
+}
+
+.preview {
+	opacity: 0.3;
+}
+
+.pad-group {
+	padding: 4px 0;
+	display: block;
+}
+
+.pad-group .separator {
+	margin: 16px 0;
+	display: inline-block;
+}
+
+.pad-top {
+	display: block;
+	padding-top: 16px;
+}
+
+.box-center {
+	margin: 0 auto;
+}
